@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Card</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="card__inner">
+        <div class="card__face card__face--front">
+          <div class="container">
+            <div class="visa" id="visa">
+              <img class="visa" src="/assets/icons8-visa-67.png" alt="visa" />
+            </div>
+            <div class="credit-sim">
+              <img class="chip" src="/assets/chip (1).png" alt="chip" />
+            </div>
+
+            <div class="numbers">
+              <input class="numbers-input" type="text" maxlength="19" />
+            </div>
+            <div class="expires">
+              <h5 class="text">CARD HOLDER</h5>
+              <h5 class="text">EXPIRES</h5>
+            </div>
+            <div class="date">
+              <input class="fullname" type="text" />
+              <input
+                id="expires-date"
+                class="expires-date"
+                type="text"
+                id="expires-date"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="card__face card__face--back">
+          <div class="card__content">
+            <h6 class="title">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis
+            </h6>
+            <div class="black"></div>
+            <input
+              class="cvv"
+              id="inputcvv"
+              placeholder="cvv"
+              type="text"
+              maxlength="3"
+            />
+            <div class="bank">
+              <img
+                class="kapital"
+                src="./assets/Kapital_Bank_logo.svg.png"
+                alt="kapital"
+              />
+              <img
+                class="mastercard"
+                src="/assets/Mastercard-Logo.wine.png"
+                alt="mastercard"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
